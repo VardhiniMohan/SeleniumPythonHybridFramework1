@@ -18,7 +18,7 @@ def step_impl(context):
     def changing(x, y):
         context.driver.set_window_size(x, y)
         # wait for the page to load
-        time.sleep(3)
+        #time.sleep(3)
         element = context.driver.find_element(By.XPATH, "//div[@id='common-home']")
         # get the position and size of the image element
         location = element.location

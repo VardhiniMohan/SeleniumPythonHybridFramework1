@@ -157,12 +157,12 @@ def step_impl(context):
     assert context.driver.find_element(By.XPATH,"//div[4]//section[1]").is_displayed()
 
 
-@then(u'I click on OpenCart Blog option under Support')
+@then(u'I click on OpenCart Blog option under resources')
 def step_impl(context):
     context.driver.find_element(By.LINK_TEXT,"OpenCart Blog").click()
 
 
-@then(u'I click on OpenCart Documentation option under Support')
+@then(u'I click on OpenCart Documentation option under resources')
 def step_impl(context):
     context.driver.find_element(By.XPATH,"//ul[@class='list-unstyled']//a[text()='OpenCart Documentation']").click()
 
@@ -172,7 +172,7 @@ def step_impl(context):
     assert context.driver.title.__eq__("OpenCart Documentation")
 
 
-@then(u'I click on OpenCart Books option under Support')
+@then(u'I click on OpenCart Books option under resources')
 def step_impl(context):
     context.driver.find_element(By.XPATH,"//ul[@class='list-unstyled']//a[text()='OpenCart Books']").click()
 
@@ -182,7 +182,7 @@ def step_impl(context):
     assert context.driver.title.__eq__("OpenCart Documentation")
 
 
-@then(u'I click on GitHub Bug Tracker option under Support')
+@then(u'I click on GitHub Bug Tracker option under resources')
 def step_impl(context):
     context.driver.find_element(By.XPATH,"//body[1]/footer[1]/div[1]/div[1]/div[4]/section[1]/ul[1]/li[4]/a").click()
 
@@ -193,7 +193,7 @@ def step_impl(context):
     context.driver.back()
 
 
-@then(u'I click on Developer option under Support')
+@then(u'I click on Developer option under resources')
 def step_impl(context):
     context.driver.find_element(By.XPATH,"//ul[@class='list-unstyled']//a[text()='Developer']").click()
 

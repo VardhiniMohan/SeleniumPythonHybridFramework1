@@ -61,15 +61,15 @@ Feature: Footer functionality
     And I successfully login into the application
     When I click on the logo
     Then I should see resources options in footer
-    And I click on OpenCart Blog option under Support
+    And I click on OpenCart Blog option under resources
     Then I should get blog page
-    And I click on OpenCart Documentation option under Support
+    And I click on OpenCart Documentation option under resources
     Then I should get resource-Documentation page
-    And I click on OpenCart Books option under Support
+    And I click on OpenCart Books option under resources
     Then I should get resource-Books page
-    And I click on GitHub Bug Tracker option under Support
+    And I click on GitHub Bug Tracker option under resources
     Then I should get resource-GitHub Bug Tracker page
-    And I click on Developer option under Support
+    And I click on Developer option under resources
     Then I should get resource-developer page
 
   Scenario: To validate the options under Newsletter option in the footer.
